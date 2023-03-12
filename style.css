@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Panton;
+    src: url(Panton-BlackCaps.otf);
+}
+
+@font-face {
+    font-family: Outrun Future;
+    src: url(Outrun\ future.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  margin: 0;
+}
+
+.container{
+    font-size: 200%;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    border-radius: 20px;
+    align-self: center;
+    width: 95vw;
+    max-width: 95vw;
+    font-family: Panton;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 999998;
+}
+
+h1{
+    font-size: 200%;
+}
+
+.email{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+
+.projects{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+
+.projects a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav{
+    margin-bottom: 3.7rem;
+    font-weight: bold;
+    font-family: Panton;
+    height: 3.7rem;
+    max-height: 3.7rem;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    background-color: #2a2a2a;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    z-index: 999999;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.nav li {
+    color: white;
+    float: left;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    flex-direction: row;
+    line-height: 3.7rem;
+    padding-left: 25px;
+}
+  
+.nav li a {
+    display: block;
+    text-align: -webkit-match-parent;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+.nav li a:hover :active {
+    display: block;
+    text-align: -webkit-match-parent;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+
+.logo{
+    margin: 0;
+    font-size: 110%;
+    letter-spacing: 3px;
+    color: white;
+    font-family: Outrun Future;
+    float: left;
+    line-height: 3.2rem;
+    top: 20%;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav li:hover{
+    color: rgb(122, 122, 122);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.logoImg{
+    align-self: center;
+    display: flex;
+    max-width: 40vh;
+}
+
+.logo:hover{
+    color: rgb(122, 122, 122);
+    scale: 1.05;
+}
+
+div{
+    display: block;
+}
+
+.content{
+    margin: auto;
+    width: 90%;
+}
+
+.content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content li a {
+    text-decoration: none;
+    color: #788ce9;
+}
+
+.content li{ 
+    border-top: 1px solid #a4a4a45e;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Change the link color on hover */
+.content li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.content li h1{
+    display: block;
+        color: #ffffff;
+        padding: 8px 16px;
+        margin: 0;
+        font-family: Panton;
+}
+
+.description{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(75, 75, 75);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bio {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 95%;
+    font-family: 'Roboto', sans-serif;
+}
+.date{
+    text-align: center;
+}
+
+.prDescription {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(75, 75, 75);
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prDescription a{
+    color: #a5a5a5;
+    text-decoration:underline;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.prContent {
+    margin: auto;
+    width: 90%;
+}
+
+.prContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.prContent li a {
+    text-decoration: none;
+    color: #788ce9;
+}
+
+.prContent li {
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Change the link color on hover */
+.prContent li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.prContent li h1 {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin: 0;
+    font-family: Panton;
+}
+
+main{
+    margin-top: 3.7rem;
+}
