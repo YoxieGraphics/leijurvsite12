@@ -147,7 +147,6 @@ div{
 .content ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     padding: 20px;
     border-radius: 10px;
 }
@@ -263,4 +262,12 @@ div{
 
 main{
     margin-top: 3.7rem;
+}
+
+.leaderboard-daydesc-first {
+  color: #9999cc;
+}
+
+.leaderboard-daydesc-both {
+  color: #ffff66;
 }
